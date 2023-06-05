@@ -28,7 +28,7 @@ stages:
           repository: 'custom2aksnginxapp1'
           command: 'buildAndPush'
           Dockerfile: '**/Dockerfile'
-          addBaseImageData: false
+          
           tags:
             $(tag) 
             $(Build.SourceVersion)
